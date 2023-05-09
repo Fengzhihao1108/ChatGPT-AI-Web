@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。",
+      "欢迎来到由 豪 搭建的chatGPT-web站点！\n此刻访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入自己的 OpenAI API Key。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -134,7 +134,7 @@ const cn = {
     },
     Token: {
       Title: "API Key",
-      SubTitle: "使用自己的 Key 可绕过密码访问限制",
+      SubTitle: "已经内置了 Key 别再填写了！绕过密码使用",
       Placeholder: "OpenAI API Key",
     },
 
@@ -149,7 +149,7 @@ const cn = {
     },
     AccessCode: {
       Title: "访问密码",
-      SubTitle: "管理员已开启加密访问",
+      SubTitle: "管理员 豪 已开启加密访问",
       Placeholder: "请输入访问密码",
     },
     Model: "模型 (model)",
@@ -168,7 +168,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "欢迎来到由 豪 搭建的chatGPT-web站点！请问需要什么帮助？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
