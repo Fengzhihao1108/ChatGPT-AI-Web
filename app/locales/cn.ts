@@ -4,7 +4,7 @@ const cn = {
   WIP: "华强，这个功能还在开发中...",
   Error: {
     Unauthorized:
-      "欢迎来到由 豪 搭建的ChatGPT-web站点！\n此刻访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入自己的 OpenAI API Key。",
+      "欢迎来到由 豪 搭建的ChatGPT-AI站点！\n此刻访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入自己的 OpenAI API Key。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -168,7 +168,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "欢迎来到由 豪 搭建的chatGPT-web站点！请问需要什么帮助？",
+    BotHello: "欢迎来到由 豪 搭建的ChatGPT-AI站点！\n请问需要什么帮助？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
